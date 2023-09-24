@@ -1,0 +1,11 @@
+import sys
+from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QPushButton, QListWidget, QCheckBox, QComboBox, QCalendarWidget
+from PyQt5.QtCore import Qt, QDate
+
+class Calendar(QMainWindow):
+def __init__(self):
+  super().__init__()
+  self.setWindowTitle("Calendar")
+  self.setGeometry(100,100,500,150)
+
+  
