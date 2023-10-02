@@ -11,3 +11,4 @@ class period_tracker(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Period Tracker App")
+        self.setGeometry(100,100,800,600)
