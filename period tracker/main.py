@@ -18,3 +18,8 @@ class period_tracker(QMainWindow):
         self.layout = QVBoxLayout()
         self.central_widget.setLayout(self.layout)
         
+        
+if __name__ == "__main__":
+         app = QApplication(sys.argv)
+         sys.exit(app.exec_())
+         
