@@ -12,3 +12,9 @@ class period_tracker(QMainWindow):
         super().__init__()
         self.setWindowTitle("Period Tracker App")
         self.setGeometry(100,100,800,600)
+        
+        self.central_widget = QWidget()
+        self.setCentralWidget(self.central_widget)
+        self.layout = QVBoxLayout()
+        self.central_widget.setLayout(self.layout)
+        
