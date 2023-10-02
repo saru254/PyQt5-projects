@@ -10,3 +10,4 @@ from PyQt5.QtGui import QIcon
 class period_tracker(QMainWindow):
     def __init__(self):
         super().__init__()
+        self.setWindowTitle("Period Tracker App")
